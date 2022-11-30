@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiController {
+public class RestApiController {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(ApiController.class, args);
+		SpringApplication.run(RestApiController.class, args);
 	}
 
 }
